@@ -1,8 +1,8 @@
-# block-content-to-svelte-example
+# block-content-to-svelte
 
 ```svelte
 <script>
-  import BlockContent from "block-content-to-svelte-example";
+  import BlockContent from "block-content-to-svelte";
   
   import Image from "./Image";
   import Link from "./Link";

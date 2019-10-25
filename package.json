@@ -1,5 +1,5 @@
 {
-  "name": "block-content-to-svelte-example",
+  "name": "block-content-to-svelte",
   "version": "0.0.1",
   "description": "Prototype Svelte component for rendering sanity.io style Portable Text",
   "svelte": "src/index.svelte",
