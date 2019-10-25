@@ -2,6 +2,8 @@
 
 ```svelte
 <script>
+  import BlockContent from "block-content-to-svelte-example";
+  
   import Image from "./Image";
   import Link from "./Link";
 
