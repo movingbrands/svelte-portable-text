@@ -1,8 +1,8 @@
-# block-content-to-svelte
+# svelte-portable-text
 
 ```svelte
 <script>
-  import BlockContent from "block-content-to-svelte";
+  import BlockContent from "svelte-portable-text";
   
   import Image from "./Image";
   import Link from "./Link";
