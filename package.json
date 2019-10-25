@@ -7,14 +7,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/movingbrands/block-content-to-svelte-example.git"
+    "url": "git+https://github.com/movingbrands/svelte-portable-text.git"
   },
   "author": "Toby Milner-Gulland (tmgulland@movingbrands.com)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/movingbrands/block-content-to-svelte-example/issues"
+    "url": "https://github.com/movingbrands/svelte-portable-text/issues"
   },
-  "homepage": "https://github.com/movingbrands/block-content-to-svelte-example#readme",
+  "homepage": "https://github.com/movingbrands/svelte-portable-text#readme",
   "scripts": {
     "test": "jest src",
     "test:watch": "npm run test -- --watch",
