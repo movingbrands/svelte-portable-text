@@ -1,5 +1,7 @@
 # svelte-portable-text
 
+Note: this package is in active development, will likely change and may contain errors.
+
 ## Install
 ```bash
 npm install @movingbrands/svelte-portable-text
