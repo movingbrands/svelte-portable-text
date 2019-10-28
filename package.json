@@ -16,8 +16,6 @@
   },
   "homepage": "https://github.com/movingbrands/svelte-portable-text#readme",
   "scripts": {
-    "test": "jest src",
-    "test:watch": "npm run test -- --watch",
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
