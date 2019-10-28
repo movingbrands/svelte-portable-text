@@ -1,8 +1,14 @@
 # svelte-portable-text
 
+## Install
+```bash
+npm install @movingbrands/svelte-portable-text
+```
+
+### Use
 ```svelte
 <script>
-  import BlockContent from "svelte-portable-text";
+  import BlockContent from "@movingbrands/svelte-portable-text";
   
   import Image from "./Image";
   import Link from "./Link";
