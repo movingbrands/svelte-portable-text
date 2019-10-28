@@ -1,5 +1,5 @@
 {
-  "name": "svelte-portable-text",
+  "name": "@movingbrands/svelte-portable-text",
   "version": "0.0.1",
   "description": "Svelte component for rendering sanity.io style Portable Text",
   "svelte": "src/index.svelte",
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/movingbrands/svelte-portable-text.git"
   },
   "author": "Toby Milner-Gulland (tmgulland@movingbrands.com)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/movingbrands/svelte-portable-text/issues"
   },
