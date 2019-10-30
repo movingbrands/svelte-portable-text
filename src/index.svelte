@@ -5,7 +5,7 @@
   export let blocks = [];
   export let serializers = {};
 
-  export const converted = blockContentToNodes({
+  $: converted = blockContentToNodes({
     blocks,
     serializers
   });
