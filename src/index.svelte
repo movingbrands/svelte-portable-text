@@ -11,6 +11,7 @@
   });
 </script>
 
+<ChildNode {...converted} />
 {#if converted.childNodes}
   {#each converted.childNodes as childNode}
     {#if childNode}

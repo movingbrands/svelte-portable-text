@@ -1,8 +1,8 @@
 
-const objectAssign = require('object-assign')
-const getImageUrl = require('@sanity/block-content-to-hyperscript/lib/getImageUrl')
-const blocksToNodes = require('@sanity/block-content-to-hyperscript/lib/blocksToNodes')
-const getSerializers = require('@sanity/block-content-to-hyperscript/lib/serializers')
+import objectAssign from 'object-assign'
+import getImageUrl from '@sanity/block-content-to-hyperscript/lib/getImageUrl'
+import blocksToNodes from '@sanity/block-content-to-hyperscript/lib/blocksToNodes'
+import getSerializers from '@sanity/block-content-to-hyperscript/lib/serializers'
 
 const renderNode = (serializer, properties, children) => {
   const props = properties || {}

@@ -6,7 +6,7 @@
 </script>
 
 {#each childNodes as childNode}
-  {#if typeof childNode === 'string'}{childNode}{/if}
+  {#if typeof childNode === 'string'}{childNode.trim()}{/if}
   {#if childNode.childNodes}
     <svelte:component
       this={childNode.component || blockComponents(childNode.tag)}
