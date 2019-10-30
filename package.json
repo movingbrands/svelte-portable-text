@@ -53,5 +53,8 @@
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
