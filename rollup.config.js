@@ -1,5 +1,7 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from 'rollup-plugin-node-resolve';
+import commonJS from 'rollup-plugin-commonjs';
+
 import pkg from './package.json';
 
 const name = pkg.name
@@ -12,24 +14,19 @@ export default {
 	output: [
 		{
 			file: pkg.module,
-			format: 'es',
-			globals: {
-				'@sanity/block-content-to-hyperscript': 'blockContentToHyperscript'
-			}
+			format: 'es'
 		},
 		{
 			file: pkg.main,
 			format: 'umd',
-			name,
-			globals: {
-				'@sanity/block-content-to-hyperscript': 'blockContentToHyperscript'
-			}
+			name
 		}
 	],
 	plugins: [
 		svelte(),
-		resolve({
-			modulesOnly: true
-		})
+		commonJS({
+			include: 'node_modules/**'
+		}),
+		resolve()
 	]
 };

@@ -13,6 +13,7 @@ import normal from './normal.svelte'
 import ul from './ul.svelte'
 import ol from './ul.svelte'
 import li from './li.svelte'
+import u from './u.svelte'
 
 export const Components = {
   h1,
@@ -29,7 +30,8 @@ export const Components = {
   ol,
   blockquote,
   ul,
-  li
+  li,
+  u
 }
 
 export default component =>
