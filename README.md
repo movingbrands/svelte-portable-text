@@ -3,7 +3,7 @@
 Note: this package is in active development, will likely change and may contain errors.
 
 ## Install
-At the moment, it seems the best approach is to install (@sanity/block-content-to-hyperscript)[https://github.com/sanity-io/block-content-to-hyperscript/] alongside this component. 
+At the moment, it seems the best approach is to install [@sanity/block-content-to-hyperscript](https://github.com/sanity-io/block-content-to-hyperscript/) alongside this component. 
 
 Installing Svelte components as a `devDependency` seems to address [this issue](https://github.com/sveltejs/sapper/issues/774).
 
