@@ -1,5 +1,4 @@
 
-import objectAssign from 'object-assign'
 import getImageUrl from '@sanity/block-content-to-hyperscript/lib/getImageUrl'
 import blocksToNodes from '@sanity/block-content-to-hyperscript/lib/blocksToNodes'
 import getSerializers from '@sanity/block-content-to-hyperscript/lib/serializers'
@@ -7,7 +6,7 @@ import getSerializers from '@sanity/block-content-to-hyperscript/lib/serializers
 const renderNode = (serializer, properties, children) => {
   const props = properties || {}
   if (typeof serializer === 'function') {
-    return serializer(objectAssign({}, props, { children }))
+    return serializer(Object.assign({}, props, { children }))
   }
 
   const tag = serializer
