@@ -1,7 +1,7 @@
 
-import getImageUrl from '@sanity/block-content-to-hyperscript/lib/getImageUrl'
-import blocksToNodes from '@sanity/block-content-to-hyperscript/lib/blocksToNodes'
-import getSerializers from '@sanity/block-content-to-hyperscript/lib/serializers'
+const blocksToHyperScript = require('@sanity/block-content-to-hyperscript/internals')
+
+const { getImageUrl, blocksToNodes, getSerializers } = blocksToHyperScript
 
 const renderNode = (serializer, properties, children) => {
   const props = properties || {}

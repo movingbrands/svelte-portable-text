@@ -19,10 +19,8 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
-    "@sanity/block-content-to-hyperscript": "^2.0.10"
-  },
   "devDependencies": {
+    "@sanity/block-content-to-hyperscript": "^2.0.10",
     "@sanity/block-content-tests": "^0.3.0",
     "@testing-library/jest-dom": "^4.2.0",
     "@testing-library/svelte": "^1.9.0",

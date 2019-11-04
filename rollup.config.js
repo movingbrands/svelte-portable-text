@@ -10,11 +10,26 @@ const name = pkg.name
 export default {
 	input: 'src/index.svelte',
 	output: [
-		{ file: pkg.module, 'format': 'es' },
-		{ file: pkg.main, 'format': 'umd', name }
+		{
+			file: pkg.module,
+			format: 'es',
+			globals: {
+				'@sanity/block-content-to-hyperscript': 'blockContentToHyperscript'
+			}
+		},
+		{
+			file: pkg.main,
+			format: 'umd',
+			name,
+			globals: {
+				'@sanity/block-content-to-hyperscript': 'blockContentToHyperscript'
+			}
+		}
 	],
 	plugins: [
 		svelte(),
-		resolve()
+		resolve({
+			modulesOnly: true
+		})
 	]
 };
