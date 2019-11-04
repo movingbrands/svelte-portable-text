@@ -1,0 +1,3 @@
+<code>
+    <slot/>
+</code>
