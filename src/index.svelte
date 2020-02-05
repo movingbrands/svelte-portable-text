@@ -11,9 +11,10 @@
   });
 </script>
 
-{#if converted.childNodes.length === 1}
+{#if converted.childNodes && converted.childNodes.length === 1}
   <ChildNode {...converted} />
 {:else}
+  <ChildNode {...converted} />
   {#each converted.childNodes as childNode}
     {#if childNode}
       <ChildNode {...childNode} />
