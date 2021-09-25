@@ -1,5 +1,4 @@
-
-import internals from '@sanity/block-content-to-hyperscript/internals.js'
+import internals from '@sanity/block-content-to-hyperscript/internals'
 
 const { getImageUrl, blocksToNodes, getSerializers } = internals
 
