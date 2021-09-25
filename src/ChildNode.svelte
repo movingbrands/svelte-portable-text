@@ -8,9 +8,7 @@
 </script>
 
 {#if tag || component}
-  <svelte:component
-    this={component || blockComponents(tag)}
-    {...!!component && props}>
+  <svelte:component this={component || blockComponents(tag)} {...props}>
     <ChildNodes {childNodes} />
   </svelte:component>
 {:else}

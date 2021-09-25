@@ -9,7 +9,8 @@
   {#if typeof childNode === 'string'}{childNode.trim()}{/if}
   <svelte:component
     this={childNode.component || blockComponents(childNode.tag)}
-    {...assignProps(childNode)}>
+    {...(childNode.props ?? {})}
+  >
     {#if childNode.childNodes}
       <svelte:self childNodes={childNode.childNodes} />
     {/if}

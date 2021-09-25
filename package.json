@@ -1,6 +1,6 @@
 {
   "name": "@jcamilleri13/svelte-portable-text",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Svelte component for rendering sanity.io style Portable Text",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
