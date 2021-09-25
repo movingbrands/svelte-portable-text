@@ -7,14 +7,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/movingbrands/svelte-portable-text.git"
+    "url": "git+https://github.com/jcamilleri13/svelte-portable-text.git"
   },
   "author": "Toby Milner-Gulland (tmgulland@movingbrands.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/movingbrands/svelte-portable-text/issues"
-  },
-  "homepage": "https://github.com/movingbrands/svelte-portable-text#readme",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
