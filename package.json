@@ -1,5 +1,5 @@
 {
-  "name": "@jcamilleri/svelte-portable-text",
+  "name": "@jcamilleri13/svelte-portable-text",
   "version": "0.0.12",
   "description": "Svelte component for rendering sanity.io style Portable Text",
   "svelte": "src/index.svelte",
