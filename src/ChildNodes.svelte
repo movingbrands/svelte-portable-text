@@ -7,11 +7,12 @@
 
 {#each childNodes as childNode}
   {#if typeof childNode === 'string'}{childNode.trim()}{/if}
-  {#if childNode.childNodes}
-    <svelte:component
-      this={childNode.component || blockComponents(childNode.tag)}
-      {...assignProps(childNode)}>
+  <svelte:component
+    this={childNode.component || blockComponents(childNode.tag)}
+    {...(childNode.props ?? {})}
+  >
+    {#if childNode.childNodes}
       <svelte:self childNodes={childNode.childNodes} />
-    </svelte:component>
-  {/if}
+    {/if}
+  </svelte:component>
 {/each}
